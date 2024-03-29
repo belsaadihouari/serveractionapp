@@ -65,7 +65,7 @@
     outline: none;
   }
   
-  button {
+  .button {
     padding: 15px;
     border: none;
     border-radius: 8px;
@@ -80,29 +80,14 @@
     margin-right: auto;
     margin-top: 2rem;
     user-select: none;
+    margin-bottom: 2rem;
   }
   
-  button:hover {
+  .button:hover {
     background-color: #0173ed;
   }
   
-  .bottom-text {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-top: 20px;
-    color: #ffffff;
-    font-size: 15px;
-    font-weight: 400;
-  }
-  
-  .bottom-text a {
-    color: #0173ed;
-    text-decoration: none;
-    transition: color 0.3s ease;
-  }
-  
-  .bottom-text a:hover {
-    color: #3f95f2;
-  }
+.button:disabled{
+  background-color: gray;
+}
   
